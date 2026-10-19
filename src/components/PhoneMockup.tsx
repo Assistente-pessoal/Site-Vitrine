@@ -6,7 +6,7 @@ export default function PhoneMockup() {
   return (
     <div className="phone" aria-hidden="true">
       <div className="phone-screen">
-        <div className="phone-top"><span className="phone-dot"><Icon name="mic" size={16} /></span>VOX</div>
+        <div className="phone-top"><span className="phone-dot"><Icon name="mic" size={16} /></span>Synapse</div>
         <p className="phone-title">O que você precisa lembrar?</p>
         <div className="phone-voice">
           <span className="phone-mic"><Icon name="mic" size={22} /></span>

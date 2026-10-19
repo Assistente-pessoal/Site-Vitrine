@@ -10,7 +10,7 @@ export interface AppConfig {
 
 // PLACEHOLDERS: null = dado real ainda não fornecido. Nada é exibido como link.
 export const APP: AppConfig = {
-  name: "VOX",
+  name: "Synapse",
   version: "PENDENTE",
   apkUrl: null,
   playStoreUrl: null,

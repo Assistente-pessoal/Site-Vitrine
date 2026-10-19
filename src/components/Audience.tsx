@@ -6,7 +6,7 @@ export default function Audience() {
       <div className="container">
         <p className="eyebrow">Para quem é</p>
         <h2 id="publico-titulo">Nosso público-alvo</h2>
-        <p className="lede">O VOX foi pensado para pessoas com necessidades diferentes de organização. Estes são dois exemplos.</p>
+        <p className="lede">O Synapse foi pensado para pessoas com necessidades diferentes de organização. Estes são dois exemplos.</p>
         <div className="personas">
           {PERSONAS.map((p) => (
             <article className={`card persona persona-${p.id}`} key={p.id}>
@@ -20,7 +20,7 @@ export default function Audience() {
                 <ul>{p.needs.map((n) => <li key={n}>{n}</li>)}</ul>
               </div>
               <div>
-                <h4>Como o VOX ajuda</h4>
+                <h4>Como o Synapse ajuda</h4>
                 <p>{p.help}</p>
               </div>
             </article>

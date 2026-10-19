@@ -1,4 +1,4 @@
-# CONTEXTO — VOX (fonte única de verdade)
+# CONTEXTO — SYNAPSE (fonte única de verdade)
 
 Aplicativo Android de lembretes por voz, em versão beta.
 

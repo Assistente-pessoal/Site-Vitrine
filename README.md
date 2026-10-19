@@ -1,4 +1,4 @@
-# VOX — site-vitrine
+# Synapse — site-vitrine
 
 React + Vite + TypeScript + CSS puro. Página estática, sem backend.
 

@@ -18,7 +18,7 @@ export const INSTALL_STEPS: string[] = [
   "Baixe o APK pelo site oficial do projeto.",
   "Abra o arquivo baixado no dispositivo Android.",
   "Caso o sistema solicite, autorize a instalação para essa origem nas configurações do aparelho.",
-  "Confirme a instalação e abra o VOX.",
+  "Confirme a instalação e abra o Synapse.",
 ];
 
 export const INSTALL_NOTE = "Os nomes das opções de instalação podem variar conforme a versão do Android.";
@@ -30,12 +30,12 @@ export const REQUIREMENTS: string[] = [
 ];
 
 export const FAQ: { question: string; answer: string }[] = [
-  { question: "O VOX é gratuito?", answer: "O VOX é distribuído em versão beta. Informações sobre preço serão divulgadas somente após confirmação." },
-  { question: "O VOX está disponível para iPhone?", answer: "Atualmente, a versão descrita no projeto é para Android. A versão para iOS não possui data definida." },
-  { question: "Preciso de internet para usar o VOX?", answer: "A transcrição de voz é feita no aparelho. É necessária conexão com a internet para salvar o lembrete, pois o texto confirmado é enviado ao servidor para interpretação." },
+  { question: "O Synapse é gratuito?", answer: "O Synapse é distribuído em versão beta. Informações sobre preço serão divulgadas somente após confirmação." },
+  { question: "O Synapse está disponível para iPhone?", answer: "Atualmente, a versão descrita no projeto é para Android. A versão para iOS não possui data definida." },
+  { question: "Preciso de internet para usar o Synapse?", answer: "A transcrição de voz é feita no aparelho. É necessária conexão com a internet para salvar o lembrete, pois o texto confirmado é enviado ao servidor para interpretação." },
   { question: "O áudio da minha voz é enviado para algum servidor?", answer: "Não. O áudio permanece no aparelho. Somente o texto confirmado pelo usuário é enviado ao servidor quando ele salva o lembrete." },
   { question: "O que fazer se a transcrição de voz não começar?", answer: "Verifique se o recurso de reconhecimento de voz do aparelho está disponível e se o pacote de idioma português está instalado. Se o problema persistir, verifique as configurações do serviço de voz do dispositivo." },
-  { question: "O VOX entende qualquer tipo de lembrete?", answer: "Não. A interpretação utiliza regras simples e possui limitações. Não há suporte confirmado para expressões como “daqui a duas horas”, tarefas recorrentes como “toda segunda-feira” ou períodos vagos como “às sete da noite”." },
+  { question: "O Synapse entende qualquer tipo de lembrete?", answer: "Não. A interpretação utiliza regras simples e possui limitações. Não há suporte confirmado para expressões como “daqui a duas horas”, tarefas recorrentes como “toda segunda-feira” ou períodos vagos como “às sete da noite”." },
 ];
 
 export const TEAM: { name: string; user: string; role?: string }[] = [
@@ -46,7 +46,7 @@ export const TEAM: { name: string; user: string; role?: string }[] = [
   { name: "Matheus Bertelli", user: "TheusBertelli" },
 ];
 
-export const ABOUT_TEXT = "Somos a equipe que desenvolveu o VOX para tornar o registro de tarefas e lembretes mais prático no dia a dia.";
+export const ABOUT_TEXT = "Somos a equipe que desenvolveu o Synapse para tornar o registro de tarefas e lembretes mais prático no dia a dia.";
 
 export const PERSONAS: { id: string; initials: string; name: string; profile: string; needs: string[]; help: string }[] = [
   {
@@ -67,4 +67,4 @@ export const PERSONAS: { id: string; initials: string; name: string; profile: st
   },
 ];
 
-export const AUDIENCE_NOTE = "O VOX é uma ferramenta de apoio à rotina. Ele não substitui acompanhamento médico, cuidadores ou outros recursos de assistência, quando necessários.";
+export const AUDIENCE_NOTE = "O Synapse é uma ferramenta de apoio à rotina. Ele não substitui acompanhamento médico, cuidadores ou outros recursos de assistência, quando necessários.";

@@ -8,7 +8,7 @@ export default function Download() {
         <div className="download">
           <p className="eyebrow on-brand">Versão beta · {APP.version}</p>
           <h2 id="baixar-titulo">Seu próximo lembrete começa com a sua voz</h2>
-          <p className="lead">Baixe o VOX para Android e experimente uma maneira mais prática de registrar suas tarefas por voz.</p>
+          <p className="lead">Baixe o Synapse para Android e experimente uma maneira mais prática de registrar suas tarefas por voz.</p>
           <div className="actions">
             {isHttpUrl(APP.apkUrl) ? (
               <a className="btn btn-light" href={APP.apkUrl} target="_blank" rel="noopener noreferrer">Baixar APK</a>
